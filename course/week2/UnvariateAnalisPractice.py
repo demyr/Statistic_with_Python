@@ -102,5 +102,9 @@ print(da_male_30_40.groupby(['Education'])['DMDHHSIZ'].median())
 print('\n Show histogram of house hold size distribution for males in College educational attainment group')
 male_30_40_college = da_male_30_40[da_male_30_40.Education == 'College']
 print(male_30_40_college.shape)
-sns.distplot(male_30_40_college.DMDHHSIZ, bins=6)
+sns.distplot(male_30_40_college.DMDHHSIZ, bins=6, kde=False, norm_hist=False)
+plt.show()
+
+plt.subplot(1,6,1)
+plt.hist(x=male_30_40_college.DMDHHSIZ)
 plt.show()
