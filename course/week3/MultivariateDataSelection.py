@@ -3,7 +3,7 @@ import seaborn as sns
 import pandas as pd
 
 # Download NHANES 2015-2016 data
-df = pd.read_csv("nhanes_2015_2016.csv")
+df = pd.read_csv("../nhanes_2015_2016.csv")
 
 # get columns names
 col_names = df.columns

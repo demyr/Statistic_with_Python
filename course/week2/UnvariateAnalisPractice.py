@@ -6,7 +6,7 @@ import numpy as np
 
 pd.set_option('display.max_columns', None)
 
-da = pd.read_csv("nhanes_2015_2016.csv")
+da = pd.read_csv("../nhanes_2015_2016.csv")
 
 '''
 ###

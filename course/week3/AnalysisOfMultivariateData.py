@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-import numpy as np
+# import numpy as np
 pd.set_option('display.max_columns', 100)
 
-da = pd.read_csv("nhanes_2015_2016.csv")
+da = pd.read_csv("../nhanes_2015_2016.csv")
 '''
 Bivariate data arise when every "unit of analysis" (e.g. a person in the NHANES dataset) is assessed with respect to two traits 
 (the NHANES subjects were assessed for many more than two traits, but we can consider two traits at a time here).

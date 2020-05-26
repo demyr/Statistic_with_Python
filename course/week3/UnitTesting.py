@@ -5,7 +5,7 @@ import matplotlib as plt
 pd.set_option('display.max_columns', 100) # Show all columns when looking at dataframe
 
 # Download NHANES 2015-2016 data
-df = pd.read_csv("nhanes_2015_2016.csv")
+df = pd.read_csv("../nhanes_2015_2016.csv")
 df.index = range(1,df.shape[0]+1)
 print(df.head())
 
